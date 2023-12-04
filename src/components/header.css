@@ -1,0 +1,25 @@
+.header {
+    height: calc(100vh - 80px);
+    background-position: center;
+    background-size: cover;
+    background-image: url("../media/cover2.jpg");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header::after {
+    content: "";
+    width: 100%;
+    height: inherit;
+    display: flex;
+    position: absolute;
+    background-color: #a37a0087;
+    z-index: 0;
+}
+
+.content {
+    color: white;
+    z-index: 1;
+}

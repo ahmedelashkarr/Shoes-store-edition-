@@ -1,0 +1,44 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.footer .navbar-brand::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 80%;
+    left: 10%;
+    /* transform: translate(30px, 10px); */
+    background-color: #ffc107;
+    display: flex;
+}
+
+.footer .col-3 {
+    min-width: 300px;
+    margin-top: 10px;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer .icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer .icons a {
+    text-decoration: none;
+}
+
+.footer .icons li {
+    margin: 5px;
+}

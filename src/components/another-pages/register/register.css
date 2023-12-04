@@ -1,0 +1,15 @@
+.register-page {
+    min-height: calc(100vh - 80px);
+    height: fit-content;
+    background-color: silver;
+}
+
+.register-form {
+    background-color: white;
+    /* height: 80vh; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90vh;
+    padding: 30px;
+    box-shadow: 0 1rem 3rem #8b8b8b !important;
+}

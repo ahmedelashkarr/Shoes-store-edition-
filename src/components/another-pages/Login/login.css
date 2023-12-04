@@ -1,0 +1,12 @@
+.login-page {
+    height: calc(100vh - 80px);
+    background-color: silver;
+}
+
+.login-form {
+    background-color: white;
+    height: 60vh;
+    width: 70vh;
+    padding: 30px;
+    box-shadow: 0 1rem 3rem #8b8b8b !important;
+}
